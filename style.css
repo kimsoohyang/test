@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #656567;
+}
+
+body {
+    font-family: 'NanumGothic';
+    font-size: 12px;
+    line-height: 22px;
+    color: #656567;
+    min-width: 1000px;
+}
+
+/* 헤더 */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    /*헤더의 크기가 없기때문에 안의 컨텐츠 내용만 1000px로만 나와서 전체 크기를 잡아줌*/
+    background-color: #fff; 
+    /*포지션을 사용해서 뒤의 내용이 비치니까*/
+}
+
+.header_in {
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header_in ul {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+}
+
+.header_in ul li a {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+.header_in ul li a:hover {
+    color: #ccc;
+}
+
+/* 메인 배너 */
+.main {
+    display: block;
+    width: 100%;
+    margin-top: 126px;
+}
+
+/* 우리맛 레시피 con1 */
+
+.con1 {
+    background-color: #ececec;
+}
+
+.con1_in {
+    width: 1000px;
+    margin: auto;
+    padding: 80px 0;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.con1_in p {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    color: #65a82f;
+    margin-bottom: 40px;
+}
+
+.con1_in .a {
+    color: #a7a7a7;
+    margin: 20px 0;
+}
+
+.con1_in .title {
+    font-size: 24px;
+}
+
+.con1_in .b {
+    display: inline-block;
+    margin: 100px 0;
+    font-size: 14px;
+    background-color: #6e994b;
+    color: white;
+    padding: 20px 10px;
+}
+
+.con1_in .b:hover {
+    background-color: #7ebd4a;
+}
+
+
+
+
+
+/* 요리에센스 연두순 con2 */
+
+.con2 {
+    background: url(./images/bg.jpg) no-repeat center top;
+    height: 640px;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+.con2_in {
+    width: 570px;
+    margin: auto;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.c {
+    display: block;
+}
+
+h2 {
+    color: #65a82f;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.con2_in p {
+    color: #656567;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.con2_in a {
+    display: inline-block;
+    background-color: #65a82f;
+    color: white;
+    padding: 20px;
+}
+
+.con2_in a:hover {
+    background-color: #7ebd4a;
+}
+
+
+/* 푸터 */
+
+footer {
+    background-color: #696969;
+}
+
+.footer_in {
+    width: 1000px;
+    margin: auto;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    padding:30px 0;
+    color: white;
+    text-align: center;
+}
+
+.text{
+    width: calc(100% - 97px);
+}
+
+.footer_in ul{
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+
+}
+
+.footer_in ul li a{
+    display: block;
+    color: rgb(199, 199, 199);
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+    
+}
+
+.footer_in ul li a:hover{
+    color: #e0e0e0;
+}
